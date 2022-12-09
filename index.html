@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>Practica bloque 3</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <script>
+        function nom(){
+            var nom = document.getElementById("nom").value ;
+            var apellido1 = document.getElementById("apellido1").value ;
+            alert ("Bienvenido " + nom + " " + apellido1)
+        }
+    </script>
+    
+
+   
+    <h1>Practica bloque 3</h1>
+    Introduce nombre <input type="text" id="nom">   
+    Introduce apellido1 <input type="text" id="apellido1" onblur="nom()">
+</body>
+</html>
